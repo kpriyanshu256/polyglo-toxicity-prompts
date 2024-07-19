@@ -192,7 +192,15 @@ The source of the `text` field is as follows:
 - [Pile-Curse](https://huggingface.co/datasets/tomekkorbak/pile-curse-full)
 - Translated versions of data from mC4 and Pile-Curse using [facebook/nllb-200-3.3B](https://huggingface.co/facebook/nllb-200-3.3B)
 
-#### Initial Data Collection and Normalization
+
+### Benchmarking Script
+
+The `generations.py` script generates continuations from an LLM and scores the Perspective API score for each generation.
+
+```python
+cd src
+python generations.py --model mistralai/Mistral-7B-Instruct-v0.1 --language en --ds_config ptp_small
+```
 
 ### Licensing Information
 
