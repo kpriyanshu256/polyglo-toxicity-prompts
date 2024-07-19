@@ -8,6 +8,10 @@ We overcome the scarcity of naturally occurring toxicity in web-text and ensure 
 Using \datasetAbbrev, we investigate research questions to study the impact of model size, prompt language, and instruction and preference-tuning methods on toxicity by benchmarking over 60 LLMs. Notably, we find that toxicity increases as language resources decrease or model size increases. Although instruction- and preference-tuning reduce toxicity, the choice of preference-tuning method does not have any significant impact.
 Our findings shed light on crucial shortcomings of LLM safeguarding and highlight areas for future research.
 
+### Dataset and Leaderboard
+
+The [dataset](https://huggingface.co/datasets/ToxicityPrompts/PolygloToxicityPrompts) and [leaderboard](https://huggingface.co/spaces/ToxicityPrompts/PTP) are available on Huggingface.
+
 
 ### Dataset Summary
 
